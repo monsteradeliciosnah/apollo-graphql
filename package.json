@@ -1,0 +1,20 @@
+{
+  "name": "apollo-graphql",
+  "version": "0.1.0",
+  "description": "Apollo GraphQL API with Prisma + SQLite",
+  "author": "Lord Nibbler",
+  "type": "module",
+  "scripts": {
+    "dev": "node src/server.js",
+    "prisma:generate": "prisma generate",
+    "prisma:migrate": "prisma migrate dev --name init"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.16.1",
+    "apollo-server": "^3.12.1",
+    "graphql": "^16.8.1"
+  },
+  "devDependencies": {
+    "prisma": "^5.16.1"
+  }
+}
